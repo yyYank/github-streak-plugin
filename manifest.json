@@ -1,0 +1,13 @@
+{
+  "name": "github-streak-plugin",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Resurrection GitHub Streak",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["jquery.min.js","streak.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
