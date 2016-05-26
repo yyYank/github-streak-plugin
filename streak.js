@@ -28,5 +28,7 @@ $(document).ready(function(){
         }
     }
     streak.push(count);
-    alert("[Current Streak]" + count + "\n[Longest Streak]"+ Math.max.apply(null, streak));
+    if(Math.max.apply(null, streak) != 0){
+        alert("[Current Streak]" + (count + 1) + "\n[Longest Streak]"+ (Math.max.apply(null, streak) + 1));
+    }
 });
