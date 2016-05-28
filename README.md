@@ -25,3 +25,8 @@ window.alertでLongest StreakとCurrent Streakが表示されます。
 こっちのほうが良さそうだ
 
 [https://github.com/ed-flanagan/github-streak](https://github.com/ed-flanagan/github-streak)
+
+
+## License 
+
+Apache 2
